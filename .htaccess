@@ -1,0 +1,15 @@
+Options -Indexes
+
+# Custom error pages
+ErrorDocument 404 /404.php
+ErrorDocument 403 /404.php
+
+RewriteEngine On
+RewriteBase /
+
+# Allow direct access to real files and directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirect everything else to 404
+RewriteRule ^(.*)$ /404.php [L,R=302]

@@ -1,0 +1,45 @@
+# ============================================
+# PHP Blog Website - .gitignore
+# ============================================
+
+# ----- Database Config (sensitive!) -----
+includes/db.php
+
+# ----- Uploaded Files (user content) -----
+uploads/*
+!uploads/.gitkeep
+
+# ----- Environment & Config Files -----
+.env
+.env.local
+config.php
+
+# ----- PHP Logs & Errors -----
+*.log
+error_log
+php_errors.log
+
+# ----- OS Files -----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----- IDE / Editor Files -----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ----- Composer (if used later) -----
+/vendor/
+composer.lock
+
+# ----- Node / NPM (if used later) -----
+node_modules/
+npm-debug.log
+
+# ----- Temp & Backup Files -----
+*.tmp
+*.bak
+*.swp
+*~
