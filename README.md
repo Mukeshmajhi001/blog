@@ -1,9 +1,4 @@
 # 📝 The Daily Blog
-
-<a href="https://mb-blog.free.nf/" target="_blank">
-  <img src="https://img.shields.io/badge/Visit-Website-blue?style=for-the-badge&logo=google-chrome" />
-</a>
-
 ### A simple PHP + MySQL blog website with admin panel
 
 ![PHP](https://img.shields.io/badge/PHP-8.0+-777BB4?style=flat&logo=php&logoColor=white)
@@ -126,5 +121,3 @@ Dashboard se posts create, edit aur delete kar sakte ho.
 ## 📄 License
 
 This project is open source under the [MIT License](LICENSE).
-
-
